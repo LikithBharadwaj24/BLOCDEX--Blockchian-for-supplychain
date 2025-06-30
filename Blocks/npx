@@ -1,0 +1,89 @@
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\ProductInfo.sol
+> Compiling .\contracts\PurchaseHistory.sol
+> Compiling .\contracts\UsersInfo.sol
+> Artifacts written to C:\Users\likit\OneDrive\Desktop\Supply chain\Blocks\build\contracts
+> Compiled successfully using:
+   - solc: 0.8.21+commit.d9974bed.Emscripten.clang
+
+
+Starting migrations...
+======================
+> Network name:    'ganache'
+> Network id:      5777
+> Block gas limit: 6721975 (0x6691b7)
+
+
+1_depolyment_contract.js
+========================
+
+   Replacing 'UsersInfo'
+   ---------------------
+   > transaction hash:    0xb948559e5dab8dde815db84bef21641a8719a3f9a48c2e2c86eb84cbece2d3b2
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x36817F136f183EED42640ebc27Ff07EbBd20B1Ea
+   > block number:        17
+   > block timestamp:     1746083270
+   > account:             0xDBa9ECf9696fD95160e0F7B932ae1cb8C4f4725A
+   > balance:             99.976703421709436382
+   > gas used:            1219993 (0x129d99)
+   > gas price:           2.643805957 gwei
+   > value sent:          0 ETH
+   > total cost:          0.003225424760898301 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.003225424760898301 ETH
+
+
+2_deployment_contract.js
+========================
+
+   Replacing 'ProductInfo'
+   -----------------------
+   > transaction hash:    0x3af10fa3cb8e12dce981384f7065cc271219cfb9c76a5975f77f7c70502f62d3
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x65BbCE8b366909f2207E49E09a8Cf711DdBFa09C
+   > block number:        18
+   > block timestamp:     1746083271
+   > account:             0xDBa9ECf9696fD95160e0F7B932ae1cb8C4f4725A
+   > balance:             99.974969002375886472
+   > gas used:            658885 (0xa0dc5)
+   > gas price:           2.632355166 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00173441933354991 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.00173441933354991 ETH
+
+
+3_deployment_contract.js
+========================
+
+   Replacing 'PurchaseHistory'
+   ---------------------------
+   > transaction hash:    0x76c28388b74464af57e11d24a9603165db614b6cc8ac48a51ce4625e5cfa15b2
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x4e59c8535E2447d210eB347b95E4D3A4C6b9C742
+   > block number:        19
+   > block timestamp:     1746083271
+   > account:             0xDBa9ECf9696fD95160e0F7B932ae1cb8C4f4725A
+   > balance:             99.971395538744017272
+   > gas used:            1364410 (0x14d1ba)
+   > gas price:           2.61905412 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0035734636318692 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.0035734636318692 ETH
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.008533307726317411 ETH
+
+
